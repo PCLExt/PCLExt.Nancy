@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLExt.Nancy", "src\PCLExt.Nancy\PCLExt.Nancy.csproj", "{A7C97A2B-F996-4CAF-87D8-F3A60B2B4D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLExt.Nancy.Abstractions", "src\PCLExt.Nancy.Abstractions\PCLExt.Nancy.Abstractions.csproj", "{3F8D0494-6EE2-47FE-B263-F09A5EA3D0B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLExt.Nancy.Desktop", "src\PCLExt.Nancy.Desktop\PCLExt.Nancy.Desktop.csproj", "{54DBACEB-B898-494B-AD88-2A407CB55A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLExt.Nancy.Android", "src\PCLExt.Nancy.Android\PCLExt.Nancy.Android.csproj", "{8EFC0559-3C9C-4D0C-A5A5-579E58FFE621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLExt.Nancy.iOS", "src\PCLExt.Nancy.iOS\PCLExt.Nancy.iOS.csproj", "{03DA3968-61A3-44D1-9F99-F55D31E07813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AppStore|Any CPU = AppStore|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C97A2B-F996-4CAF-87D8-F3A60B2B4D44}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C97A2B-F996-4CAF-87D8-F3A60B2B4D44}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{A7C97A2B-F996-4CAF-87D8-F3A60B2B4D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C97A2B-F996-4CAF-87D8-F3A60B2B4D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C97A2B-F996-4CAF-87D8-F3A60B2B4D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C97A2B-F996-4CAF-87D8-F3A60B2B4D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8D0494-6EE2-47FE-B263-F09A5EA3D0B3}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8D0494-6EE2-47FE-B263-F09A5EA3D0B3}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{3F8D0494-6EE2-47FE-B263-F09A5EA3D0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8D0494-6EE2-47FE-B263-F09A5EA3D0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8D0494-6EE2-47FE-B263-F09A5EA3D0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8D0494-6EE2-47FE-B263-F09A5EA3D0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DBACEB-B898-494B-AD88-2A407CB55A5A}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{54DBACEB-B898-494B-AD88-2A407CB55A5A}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{54DBACEB-B898-494B-AD88-2A407CB55A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DBACEB-B898-494B-AD88-2A407CB55A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DBACEB-B898-494B-AD88-2A407CB55A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DBACEB-B898-494B-AD88-2A407CB55A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFC0559-3C9C-4D0C-A5A5-579E58FFE621}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFC0559-3C9C-4D0C-A5A5-579E58FFE621}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{8EFC0559-3C9C-4D0C-A5A5-579E58FFE621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFC0559-3C9C-4D0C-A5A5-579E58FFE621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFC0559-3C9C-4D0C-A5A5-579E58FFE621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFC0559-3C9C-4D0C-A5A5-579E58FFE621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DA3968-61A3-44D1-9F99-F55D31E07813}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
+		{03DA3968-61A3-44D1-9F99-F55D31E07813}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{03DA3968-61A3-44D1-9F99-F55D31E07813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DA3968-61A3-44D1-9F99-F55D31E07813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DA3968-61A3-44D1-9F99-F55D31E07813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DA3968-61A3-44D1-9F99-F55D31E07813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

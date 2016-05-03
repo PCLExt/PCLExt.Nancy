@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>PCLExt.Nancy</id>
+        <version>1.0.2</version>
+        <title>PCL Extension - Nancy.Self API</title>
+        <authors>Aragas</authors>
+        <owners>Aragas</owners>
+        <licenseUrl>https://github.com/Aragas/PCLExt.Nancy/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Aragas/PCLExt.Nancy</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/Aragas/PCLExt.Nancy/master/common/sushi_64.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>PCL Extension provides a Nancy.Self implementation for .NET, Xamarin.iOS, Xamarin.Android. This makes it easier to create cross-platform .NET libraries and apps.</description>
+        <summary>PCL Extension provides a Nancy.Self implementation for PCL platforms</summary>
+        <tags>nancy self portable pcl android mac ios xamarin monoandroid monotouch</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Nancy" version="1.4.3" />
+                <dependency id="Nancy.Hosting.Self" version="1.4.1" />
+				<dependency id="PCLExt.FileStorage" version="1.0.5" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\src\PCLExt.Nancy.Abstractions\bin\Release\PCLExt.Nancy.Abstractions.dll" target="lib\monoandroid\PCLExt.Nancy.Abstractions.dll" />
+        <file src="..\src\PCLExt.Nancy.Abstractions\bin\Release\PCLExt.Nancy.Abstractions.xml" target="lib\monoandroid\PCLExt.Nancy.Abstractions.xml" />
+        <file src="..\src\PCLExt.Nancy.Android\bin\Release\PCLExt.Nancy.dll" target="lib\monoandroid\PCLExt.Nancy.dll" />
+        <file src="..\src\PCLExt.Nancy.Android\bin\Release\PCLExt.Nancy.xml" target="lib\monoandroid\PCLExt.Nancy.xml" />
+        <file src="..\src\PCLExt.Nancy.Abstractions\bin\Release\PCLExt.Nancy.Abstractions.dll" target="lib\net45\PCLExt.Nancy.Abstractions.dll" />
+        <file src="..\src\PCLExt.Nancy.Abstractions\bin\Release\PCLExt.Nancy.Abstractions.xml" target="lib\net45\PCLExt.Nancy.Abstractions.xml" />
+        <file src="..\src\PCLExt.Nancy.Desktop\bin\Release\PCLExt.Nancy.dll" target="lib\net45\PCLExt.Nancy.dll" />
+        <file src="..\src\PCLExt.Nancy.Desktop\bin\Release\PCLExt.Nancy.xml" target="lib\net45\PCLExt.Nancy.xml" />
+        <file src="..\src\PCLExt.Nancy.Abstractions\bin\Release\PCLExt.Nancy.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac\PCLExt.Nancy.Abstractions.dll" />
+        <file src="..\src\PCLExt.Nancy.Abstractions\bin\Release\PCLExt.Nancy.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac\PCLExt.Nancy.Abstractions.xml" />
+        <file src="..\src\PCLExt.Nancy\bin\Release\PCLExt.Nancy.dll" target="lib\portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac\PCLExt.Nancy.dll" />
+        <file src="..\src\PCLExt.Nancy\bin\Release\PCLExt.Nancy.xml" target="lib\portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac\PCLExt.Nancy.xml" />
+        <file src="..\src\PCLExt.Nancy.Abstractions\bin\Release\PCLExt.Nancy.Abstractions.dll" target="lib\portable-Xamarin.iOS+Xamarin.Mac\PCLExt.Nancy.Abstractions.dll" />
+        <file src="..\src\PCLExt.Nancy.Abstractions\bin\Release\PCLExt.Nancy.Abstractions.xml" target="lib\portable-Xamarin.iOS+Xamarin.Mac\PCLExt.Nancy.Abstractions.xml" />
+        <file src="..\src\PCLExt.Nancy.iOS\bin\Release\PCLExt.Nancy.dll" target="lib\portable-Xamarin.iOS+Xamarin.Mac\PCLExt.Nancy.dll" />
+        <file src="..\src\PCLExt.Nancy.iOS\bin\Release\PCLExt.Nancy.xml" target="lib\portable-Xamarin.iOS+Xamarin.Mac\PCLExt.Nancy.xml" />
+    </files>
+</package>
